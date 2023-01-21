@@ -1,0 +1,8 @@
+Definition: descendants of a person are chulder of that person and descendants of those children.
+
+Defining D as the function which returns the descendants of the argument "person" and C as the function which returns the children of a person, we can define the first statement mathematically as:
+ 
+D(p) = C(p) + D(C(p))
+
+
+

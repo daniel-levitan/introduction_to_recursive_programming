@@ -1,0 +1,28 @@
+s_{n} = s_{n-1} + s_{n-2}
+
+(a) Show that given s_i and s_j where i < j, we are able to build the sequence.
+
+[Still need to be shown]
+
+s_j = s_{j-1} + s_{j-2}
+
+
+(b) Find the elements of the sequence between s_1 = 1 and s_5 = 17.
+
+s_5 = s_4 + s_3
+      s_4 = s_3 + s_2
+            s_3 = s_2 + s_1
+                  
+
+s_5 = s_3 + s_2 + s_3
+s_5 = 2 * s_3 + s_2
+s_5 = 2 * (s_2 + s_1) + s_2 = 3 * s_2 + 2 * s_1
+
+3 * s_2 = s_5 - 2 * s_1
+s_2 = (s_5 - 2 * s_1) / 3 = (17 - 2) / 3 = 5
+
+s_1 = 1
+s_2 = 5
+s_3 = 5 + 1 = 6
+s_4 = 6 + 5 = 11
+s_5 = 17

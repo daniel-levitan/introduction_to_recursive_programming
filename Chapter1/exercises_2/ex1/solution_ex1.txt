@@ -1,0 +1,1 @@
+The function described implements the factorial function. We can see that not only by using the definition to get to the same mathematical formula, but we can also implement it and check the results.

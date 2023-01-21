@@ -1,0 +1,8 @@
+Let F(n) = F(n - 1) + F(n - 2)
+
+Consider that F(1) and F(2) are known. Show that the first relation can be written as F(n) = F(2) + SUM_i=1 to n-2 F(i) for n >= 2.
+
+Let's take F(m) such as m = n + k.
+
+F(n + k) = F(n + k - 1) + F(n + k - 2)
+
